@@ -1,0 +1,8 @@
+inputs:
+  myin1:
+    required: true
+outputs:
+  myout1: {}
+runs:
+  using: "docker"
+  image: "./Dockerfile"
